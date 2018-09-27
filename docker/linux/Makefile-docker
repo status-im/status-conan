@@ -1,0 +1,3 @@
+push:
+	conan upload -r status-im mxetoolchain-x86_64-w64-mingw32/5.5.0-1@status-im/stable --all --retry 5 --retry-wait 10
+	conan upload -r status-im qt5-mxe/5.11.2@status-im/stable --all --retry 5 --retry-wait 10

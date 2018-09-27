@@ -1,0 +1,22 @@
+{
+  "name": "status-conan",
+  "version": "1.0.0",
+  "description": "Conan recipe repository",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/status-im/status-conan.git"
+  },
+  "keywords": [
+    "conan"
+  ],
+  "author": "status-im",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/status-im/status-conan/issues"
+  },
+  "homepage": "https://github.com/status-im/status-conan#readme"
+}
