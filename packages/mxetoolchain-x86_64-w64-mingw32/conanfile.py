@@ -125,8 +125,8 @@ class MXEToolchainx8664w64mingw32Conan(ConanFile):
     # Add the compiler dir to the PATH
     self.env_info.PATH.append(os.path.join(self.package_folder, "bin"))
     self.env_info.CC = "%s-gcc" % self.target_tuple()
-    self.env_info.CFLAGS = "-U_WIN32_WINNT -D_WIN32_WINNT=0x0A00 -DWINVER=0x0A00 -D_UNICODE -DUNICODE -Os"
+    self.env_info.CFLAGS = "-D_UNICODE -DUNICODE -Os"
     self.env_info.CXX = "%s-g++" % self.target_tuple()
-    self.env_info.CXXFLAGS = "-U_WIN32_WINNT -D_WIN32_WINNT=0x0A00 -DWINVER=0x0A00 -D_UNICODE -DUNICODE -Os"
+    self.env_info.CXXFLAGS = "-D_UNICODE -DUNICODE -Os"
     self.env_info.WINDRES = "%s-windres" % self.target_tuple()
     self.env_info.STATUS_TRIPLE = self.target_tuple()
