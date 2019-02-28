@@ -3,7 +3,7 @@ from conans.tools import SystemPackageTool
 from conans.errors import ConanInvalidConfiguration
 import os, platform
 
-VERSION="5.11.2"
+VERSION="5.11.3"
 
 class QtConan(ConanFile):
   name = "qt5-mxe"
